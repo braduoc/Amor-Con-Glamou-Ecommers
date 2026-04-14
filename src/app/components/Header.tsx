@@ -23,7 +23,7 @@ export function Header() {
             <img
               src="/images/logo.jpeg"
               className="w-40 h-auto object-cover"
-              alt="logo"
+              alt="Amor Con Glamour"
             />
           </Link>
 
