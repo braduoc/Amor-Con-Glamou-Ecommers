@@ -21,7 +21,7 @@ export function Header() {
           {/* LOGO */}
           <Link to="/" className="flex items-center space-x-2">
             <img
-              src="/public/images/logo.jpeg"
+              src="/images/logo.jpeg"
               className="w-40 h-auto object-cover"
               alt="logo"
             />
