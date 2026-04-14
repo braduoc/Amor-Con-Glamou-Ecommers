@@ -18,14 +18,7 @@ export function Header() {
 
         <div className="flex items-center justify-between h-16">
 
-          {/* LOGO */}
-          <Link to="/" className="flex items-center space-x-2">
-            <img
-              src="/images/logo.jpeg"
-              className="w-40 h-auto object-cover"
-              alt="Amor Con Glamour"
-            />
-          </Link>
+          
 
           {/* DESKTOP NAV */}
           <nav className="hidden md:flex items-center space-x-6">
