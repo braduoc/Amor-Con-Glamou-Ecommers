@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router'; // ✅ CORREGIDO
-import { ShoppingCart } from 'lucide-react';
 import { Arreglo } from '../../types/Arreglo';
 import { Button } from './ui/button';
 import { ArrowRight } from "lucide-react";

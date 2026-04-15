@@ -1,6 +1,5 @@
 import { MessageCircle } from 'lucide-react';
 import { ProductCard } from '../components/ProductCard';
-import { useCart } from '../context/CartContext';
 import { useArreglos } from '../../hooks/useArreglos';
 import { useFiltrosArreglos } from '../../hooks/useFiltrosArreglos';
 import { Button } from '../components/ui/button';
@@ -13,7 +12,6 @@ import { ContactToUs } from '../components/ContactToUs';
 import { RelatedCarousel } from '../components/RelatedCarousel';
 
 export function Home() {
-  const { addToCart } = useCart();
 
   // 🔥 FIREBASE
   const { arreglos, loading, error } = useArreglos();

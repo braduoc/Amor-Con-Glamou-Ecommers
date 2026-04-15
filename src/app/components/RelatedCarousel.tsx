@@ -2,7 +2,6 @@ import { useMemo } from "react";
 import { useNavigate, Link } from "react-router";
 import { ProductCard } from "../components/ProductCard";
 import { Arreglo } from "../../types/Arreglo";
-import { ArrowRight } from "lucide-react";
 
 interface Props {
   arreglos: Arreglo[];

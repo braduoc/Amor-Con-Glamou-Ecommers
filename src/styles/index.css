@@ -1,29 +1,34 @@
+/* 🔥 IMPORTS SIEMPRE ARRIBA (sin espacios antes) */
 @import './fonts.css';
 @import './tailwind.css';
 @import './theme.css';
 
-
+/* 🔥 ESTILOS */
 body {
   font-family: 'Poppins', sans-serif !important;
 }
 
+/* 🔥 ANIMACIÓN SCROLL */
 .animate-scroll {
   animation: scroll 25s linear infinite;
 }
 
-/* 🔥 pausa al pasar el mouse */
+/* pausa al hover */
 .animate-scroll:hover {
   animation-play-state: paused;
 }
-/* ocultar barra */
+
+/* ocultar scrollbar */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
 .no-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
 
+/* 🔥 KEYFRAMES */
 @keyframes scroll {
   0% {
     transform: translateX(0);
@@ -32,4 +37,3 @@ body {
     transform: translateX(-33.333%);
   }
 }
-
